@@ -1,9 +1,25 @@
+/*makes the jumbotron background orange to match submit button and font white*/
 .jumbotron {
     margin-top: 30px;
     color: white;
     background-color: #f0ad4e;
 }
 
+/*adds a background image to body of page*/
 body {
     background-image: url("../images/paisley.png");
+}
+
+
+/*prevents spill-over in table at smaller screen sizes*/
+@media screen and (max-width:500px) {
+    table {
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width:400px){
+    table {
+        font-size: 9pt;
+    }
 }
