@@ -1,0 +1,9 @@
+.jumbotron {
+    margin-top: 30px;
+    color: white;
+    background-color: #f0ad4e;
+}
+
+body {
+    background-image: url("../images/paisley.png");
+}
